@@ -7,17 +7,27 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::-webkit-scrollbar {
+  width: .4rem;
+  height: .5rem
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background) !important
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--foreground) !important
+}
+
+html {
+  scrollbar-color: hsl(215.4 16.3% 46.9% / .3)
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
