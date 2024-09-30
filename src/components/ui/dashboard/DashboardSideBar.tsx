@@ -62,7 +62,7 @@ export default function DashboardSideBar() {
             })}
           </nav>
         </div>
-        <Dropdown backdrop="blur">
+        <Dropdown backdrop="blur" placement="top-start">
           <DropdownTrigger>
             <div>
               <User
@@ -83,7 +83,7 @@ export default function DashboardSideBar() {
               />
             </div>
           </DropdownTrigger>
-          <DropdownMenu aria-label="Profile Actions" variant="flat">
+          <DropdownMenu aria-label="Profile Actions" variant="flat" color="primary">
             <DropdownItem isReadOnly key="profile" className="h-14 gap-2">
               <User
                 name="Viktor Alyoshin"

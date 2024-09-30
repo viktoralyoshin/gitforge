@@ -38,7 +38,7 @@ export default function MainNavbar() {
           <h1 className="font-extrabold text-[20px]">GitForge</h1>
         </div>
         {isAuth ? (
-          <Dropdown backdrop="blur">
+          <Dropdown backdrop="blur" placement="bottom-end">
             <DropdownTrigger>
               <div>
                 <User
@@ -59,7 +59,7 @@ export default function MainNavbar() {
                 />
               </div>
             </DropdownTrigger>
-            <DropdownMenu aria-label="Profile Actions" variant="flat">
+            <DropdownMenu aria-label="Profile Actions" variant="flat" color="primary" >
               <DropdownItem isReadOnly key="profile" className="h-14 gap-2">
                 <User
                   name="Viktor Alyoshin"
