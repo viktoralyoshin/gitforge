@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function MainNavbar() {
   return (
     <div className="w-full sticky top-0 bg-background z-[100]">
-      <div className="flex justify-between items-center mx-auto my-6 px-6">
+      <div className="flex max-w-7xl justify-between items-center mx-auto my-6 px-6">
         <div className="flex gap-4 items-center">
           <Image
             src="/lo.png"
