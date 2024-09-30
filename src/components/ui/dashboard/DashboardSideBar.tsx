@@ -74,7 +74,6 @@ export default function DashboardSideBar() {
                   description: "text-primary",
                 }}
                 avatarProps={{
-                  size: "sm",
                   src: "https://avatars.githubusercontent.com/u/30373425?v=4",
                 }}
               />

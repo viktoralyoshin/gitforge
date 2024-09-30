@@ -50,7 +50,6 @@ export default function MainNavbar() {
                     description: "text-primary",
                   }}
                   avatarProps={{
-                    size: "sm",
                     src: "https://avatars.githubusercontent.com/u/30373425?v=4",
                   }}
                 />
