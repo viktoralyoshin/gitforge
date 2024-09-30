@@ -21,7 +21,7 @@ export default function DashboardBottomBar() {
             <Link href={link.route} className="w-full">
               <div
                 className={`${
-                  isActive && "bg-primary/40 hover:bg-primary/50"
+                  isActive && "bg-foreground-200"
                 } flex items-center justify-center gap-2 p-3 hover:bg-foreground-200 rounded-xl ease-in duration-200`}
               >
                 <Image

@@ -31,7 +31,7 @@ export default function DashboardSideBar() {
 
               return (
                 <Link href={link.route}>
-                  <div className={`${isActive && "bg-primary/40 hover:bg-primary/50"} flex items-center gap-2 p-3 hover:bg-foreground-200 rounded-xl ease-in duration-200`}>
+                  <div className={`${isActive && "bg-foreground-200"} flex items-center gap-2 p-3 hover:bg-foreground-200 rounded-xl ease-in duration-200`}>
                     <Image
                       src={link.image}
                       alt={link.label}
