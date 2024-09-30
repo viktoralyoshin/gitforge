@@ -8,7 +8,7 @@ export default function MainLayout({
   return (
     <div className="relative flex flex-col">
       <MainNavbar />
-      <main className="container mx-auto max-w-7xl pt-10 px-6 flex-grow">
+      <main className="container mx-auto max-w-7xl sm:pt-16 pt-[200px] px-6 flex-grow">
         {children}
       </main>
     </div>

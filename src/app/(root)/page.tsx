@@ -38,7 +38,7 @@ export default function Home() {
         <div className="h-full w-full">
           <div className="flex items-end h-full">
             <div className="flex flex-col gap-8">
-              <div className="flex flex-col w-2/3">
+              <div className="flex flex-col md:w-2/3">
                 <h1 className="text-[48px] font-bold">
                   Легкость в управлении, мощь в результатах
                 </h1>
@@ -148,7 +148,7 @@ export default function Home() {
             aria-label="Accordion 2"
             subtitle={
               <span>
-                Press to expand <strong>key 2</strong>
+                Press to expand
               </span>
             }
             title="Accordion 2"
