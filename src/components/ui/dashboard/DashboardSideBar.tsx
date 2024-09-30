@@ -23,7 +23,7 @@ export default function DashboardSideBar() {
     <div className="fixed left-0 top-0 min-w-[50px]  h-screen">
       <div className="flex flex-col p-4 pt-6 gap-4 h-full justify-between">
         <div className="flex flex-col gap-8">
-          <div className="flex gap-4 items-center pl-2">
+          <Link className="flex gap-4 items-center pl-2" href="/">
             <Image
               src="/lo.png"
               width={28}
@@ -33,7 +33,7 @@ export default function DashboardSideBar() {
             <h1 className="font-extrabold text-[20px] max-lg:hidden">
               GitForge
             </h1>
-          </div>
+          </Link>
           <nav className="flex flex-col gap-2">
             {links.map((link) => {
               const isActive =

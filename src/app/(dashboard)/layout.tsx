@@ -16,7 +16,7 @@ export default function DashboardLayout({
         <div className="max-md:hidden">
           <DashboardSideBar />
         </div>
-        <main className="container flex-grow lg:ml-[220px] md:ml-[100px] ml-6 mt-5">
+        <main className="container flex-grow lg:ml-[220px] md:ml-[100px] mx-6 mt-5">
           {children}
         </main>
         <DashboardBottomBar />
